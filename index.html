@@ -4,39 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
     <style>
         .happy1{
             background-image: url(image1.png
             );
             background-size: cover;
-            height: 350px;
+            height: 300px;
             width: 1000px;
             margin: 0 auto;
         }
         .new{
             text-align: center;
             padding: 100px;
-            color: red;
-        }
+            color: red; 
+            
+        } 
 .off{width: 1000px;
     text-align: center;
     margin: 0 auto;
-}
-.a{height: 300px;}
-.party{
-    background-image: url(/img3.png);
-background-size: cover;
-height: 350px;
-width: 1000px;
-
-margin: 0 auto;
     
 }
 
+.date{
+background-image: linear-gradient(orchid, white);
+height: 350px;
+width: 1000px;
+margin: 0 auto;
+}
+.Amisnd{
+    text-align: center;
+    padding: 80px;
+}
+.a{height: 300px;}
+.party{
+    background-image:url(img3.png) ;
+background-size: cover;
+height: 350px;
+width: 990px;
+margin: 0 auto;
+}
+.soon{
+    background-color: rgba(224, 255, 255, 0.541);
+    display: flex;
+    width: 1000px;
+    height: 370px;
+    margin: 0 auto;
+    gap: 10px;
+    animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%{background-color: gold;}
+    25%{background-color: orchid;}
+    50%{background-color: rgba(157, 0, 255, 0.334);}
+    70%{background-color: chartreuse;}
+  }
+.list{display: flex;
+    
+list-style: none;
+gap: 20px;}
+@media screen  and (max-width:800px){
+    .navber{
+        padding: 10px;
+        background-color: rgb(181, 255, 222);
+        flex-direction: column;
+        align-items: start;
+    }
+    .list{flex-direction: column;
+
+    }
+    @media screen  and (max-width:750px){
+        .navber{
+            padding: 10px;
+            flex-direction: column;
+            background-color: khaki;
+            align-items: start;
+        }
+        .list{flex-direction: column;
+    
+        }
+    }
+}
+@media screen  and (max-width:550px){
+    .navber{
+        padding: 10px;
+        
+        flex-direction: column;
+        align-items: start;
+    }
+    .list{flex-direction: column;
+
+    }
+}
+
+.what{
+    margin: 0 auto;
+    width: 1000px;}
+    .is{
+        text-align: center;
+    }
+    .bag{width: 1000px;
+background-color: rgba(192, 230, 255, 0.433);
+margin: 0 auto;}
+
+    .BAG1{
+        display: flex;
+    width: 1000px;
+height: 250px;}
+.BAG1>img{width: 100%;}
+img{padding: 2px;}
+
+.last{    background-color: bisque;
+width: 1000px;
+margin: 0 auto;}
+.discount{display: flex;
+            width: 1000px;
+height: 200px;}
+.Lorem{
+    display: flex;
+    justify-content: space-around;
+gap: 10px;}
+
+
+.icons{
+    width: 300px;;
+    margin: 0 auto;
     </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
+        <!-- navber start from here -->
+   <nav class=" navber">
+    <h2> Logo</h2>
+    <ul class="list">
+    <li>Portfolio</li>
+    <li>Blog</li>
+    <li>Here Me</li>
+    </ul>
+ </nav> 
+ <br>
         <section class="happy1">
             <div class="new">
             <h3>Happy New Year
@@ -61,9 +172,90 @@ margin: 0 auto;
                 <h2>Welcome to <br>
                     midnight party</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur <br>adipisicing elit. Quos optio dignissimos <br>temporibus ea aperiam voluptate qui perspiciatis, <br> rerum cumque nam.</p>
-                    <button>JOIN NOW</button>
+                    <button style="background-color: rgba(204, 50, 112, 0.563);">JOIN NOW</button>
+            </div>
+        </section><br>
+        <section class="date">
+            <div class="Amisnd">
+                <h2>Amisnd</h2>
+                <h2>Date: Amisnd</h2>
+                <h2>Time: Amisnd</h2>
+                <button style="background-color: rgba(127, 255, 212, 0.308);">JOIN NOW</button>
             </div>
         </section>
+        <br>
+        <section class="soon">
+            <div style="padding: 7px;">
+                <h2>New Best offer</h2>
+                <h1>Coming Soon</h1>
+                <p>Lorem ipsum, dolor sit  amet consectetur adipisicing elit.  Mollitia molestias  nam cupiditate quis et autem  ipsum quisquam, <br>earum quos enim.</p>
+            </div>
+            <div>
+                <img src="img4.png" alt="">
+            </div>
+            <div>
+                <h2>2024</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, dignissimos.</p>
+                <img src="img5.png" alt="">
+            </div>
+        </section>
+        <section class="what">
+            <div class="is">
+            <h5>What is functional
+            </h5>
+            <h1>Holydays Sale 50%</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam, porro ex. Corporis quod aperiam laborum iusto <br>voluptatibus ipsa voluptatum repellendus recusandae. Dolorum, ducimus perferendis porro sed illo ipsam commodi <br> aperiam.
+            </p>
+            </div>
+            <div class="discount">
+                <img src="img8.png" alt="">
+                <img src="img7.png" alt="">
+                <img src="img6.png" alt="">
+            </div>
+        </section>
+        <footer>
+            <section class="bag">
+                <div>
+                    <h5>THE BEST GIFT</h5>
+                    <h1>Our Awesome Portfolio
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Qui eaque officia impedit <br> ipsam error quis .
+                    </p>
+                </div>
+                
+                <div class="BAG1">
+                    <img src="img9.png" alt="">
+                    <img src="img9.png" alt="">
+                    <img src="img9.png" alt="">
+                </div>
+                <div class="BAG1">
+                    <img src="img9.png" alt="">
+                    <img src="img9.png" alt="">
+                    <img src="img9.png" alt="">
+                </div>
+            </section>
+            <br>
+            <Div class="last">
+                <Div class="Lorem">
+                    <H3>Lorem ipsum dolor sit amet <br>
+                        consectetur adipisicing elit.
+                        </H3>
+                    <H3>Lorem ipsum dolor sit amet <br>
+                        consectetur adipisicing elit.
+                        </H3>
+                </Div>
+                <h1 class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-messenger"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </h1>
+            <div class="Lorem">
+                <h3>2024,  Reserved</h3>
+                <h3>Unsubscribe</h3>
+            </div>
+            </Div>
+        </footer>
     </main>
 </body>
 </html>

@@ -1,0 +1,49 @@
+li{
+    padding: 7pxS;}
+    .navber{display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-around;
+
+    animation-name: example;
+      animation-duration: 5s;
+    }
+    
+    .list{display: flex;
+        
+    list-style: none;
+    gap: 20px;}
+    @media screen  and (max-width:800px){
+        .navber{
+            padding: 10px;
+            
+            flex-direction: column;
+            align-items: start;
+        }
+        .list{flex-direction: column;
+    
+        }
+        @media screen  and (max-width:750px){
+            .navber{
+                padding: 10px;
+                flex-direction: column;
+                
+                align-items: start;
+            }
+            .list{flex-direction: column;
+        
+            }
+        }
+    }
+    @media screen  and (max-width:550px){
+        .navber{
+            padding: 10px;
+            flex-direction: column;
+            align-items: start;
+        }
+        .list{flex-direction: column;
+    
+        }
+    }
+    
